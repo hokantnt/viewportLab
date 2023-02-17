@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Web</title>
+    <meta meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+    <div class="parrent">
+        <div class="child">
+            <label class="label-text">Hej på dig!</label>
+            <label class="label-text-fixed">Hej på dig!</label>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<style type="text/css">
+
+    .parrent{
+        display: flex;
+        justify-content: center;
+        height: 100vb;
+        background-color: beige;
+        max-width: 700px;
+        width: 100%;
+        position: absolute;
+        display: flex;
+
+    }
+    .child{
+        display: flex;
+        flex-direction: column;
+        background-color: lightblue;
+        width: 50vw;
+        align-items: center;
+    }
+    .label-text {
+        text-align: center;
+        background-color: lightgray;
+        font-size: 2vw;
+        width: 50%;
+    }
+    .label-text-fixed {
+        text-align: center;
+        background-color: hotpink;
+        font-size: 16px;
+        width: 50%;
+    }
+</style>
+
